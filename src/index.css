@@ -1,0 +1,52 @@
+:root {
+  font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+ 
+}
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100%;
+  background-color: aqua;
+}
+
+header {
+border-bottom: 2px solid black;
+height: 75px;
+}
+
+main {
+  height: calc(100% - 150px);
+  padding: 15px;
+
+  }
+
+footer {
+  border-top: 2px solid black;
+  height: 75px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+
+.blog-post {
+  padding:15px;
+  width: 250px;
+  display: block;
+  border: 2px solid black;
+
+}
+
+.blogList {
+  display: flex;
+  justify-content: space-between;
+  gap:20px;
+  flex-wrap: wrap;
+  text-align: center;
+}
